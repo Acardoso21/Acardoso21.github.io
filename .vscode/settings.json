@@ -1,0 +1,19 @@
+{
+    "cSpell.words": [
+        "Andre",
+        "Miguel",
+        "Oliu",
+        "Cardoso",
+        "Fernandes",
+        "Vakil",
+        "Wordle"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:Acardoso21.github.io}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}
