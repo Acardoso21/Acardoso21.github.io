@@ -7,7 +7,7 @@ function toggleTheme() {
   theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
 }
 </script>
-
+<!-- top bar -->
 <template>
   <nav>
     <v-row class="ma-4" rounded="0" elevation="25">
