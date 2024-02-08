@@ -5,6 +5,8 @@
 
 <template>
   <div>
+  <v-sheet class="">
+
     <v-card min-height="300" variant="outlined" elevation="0">
       <v-row no-gutters>
         <v-col cols="12" sm="6" >
@@ -19,6 +21,8 @@
         </v-col>
       </v-row>
     </v-card>
+  </v-sheet>
+
   </div>
 </template>
 

@@ -55,18 +55,18 @@
           </v-col>
         </v-row>
 
-        <v-row class="px-8 ma-auto">
-          <v-col md="12" lg="4" data-aos="slide-right" data-aos-duration="500">
-            <v-sheet>
-              <ImgCard :pathprop="require('@/assets/Exampleimg-1.jpg')" titleprop="TITLE" textprop="TEXT" :sizeprop="8"
+        <v-row class="d-flex align-content-start flex-wrap px-8 ma-auto">
+          <v-col  md="12" lg="4" data-aos="slide-right" data-aos-duration="500">
+            <!-- <v-sheet class="d-flex align-start flex-column"> -->
+              <ImgCard :pathprop="require('@/assets/Exampleimg-1.jpg')" titleprop="TITLE" textprop="TEXT" :sizeprop="2"
                 aspect-ratio="1"></ImgCard>
-            </v-sheet>
+            <!-- </v-sheet> -->
           </v-col>
-          <v-col md="12" lg="8" data-aos="slide-right" data-aos-duration="500">
-            <v-sheet>
-              <ImgCard :pathprop="require('@/assets/ExampleIMG-2.jpg')" titleprop="TITLE" textprop="TEXT" sizeprop="4">
+          <v-col  md="12" lg="8" data-aos="slide-right" data-aos-duration="500">
+            <!-- <v-sheet class="d-flex align-end flex-column"> -->
+              <ImgCard :pathprop="require('@/assets/ExampleIMG-2.jpg')" titleprop="TITLE" textprop="TEXT" :sizeprop="3" ratioprop="1">
               </ImgCard>
-            </v-sheet>
+            <!-- </v-sheet> -->
           </v-col>
         </v-row>
 
