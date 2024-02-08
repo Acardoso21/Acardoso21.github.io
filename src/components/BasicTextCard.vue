@@ -1,6 +1,6 @@
 <!-- child comp -->
 <template>
-    <div class="ma-auto pa-auto" data-aos="fade-left" data-aos-duration="500">
+    <div class="ma-auto pa-auto" data-aos="fade-left" data-aos-duration="750">
     <v-card class="ma-auto pa-auto" :title="titleprop" :subtitle="subtitleprop" :text="textprop" 
     variant="outlined"
     elevation="0"

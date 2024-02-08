@@ -1,40 +1,57 @@
+<script setup>
+import { useTheme } from 'vuetify'
+
+const theme = useTheme()
+
+function toggleTheme() {
+  theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
+}
+</script>
+
 <template>
   <nav>
     <v-row class="ma-4" rounded="0" elevation="25">
-      <v-col center class="pa-4 ma-auto" >
-        <v-btn ref="myButton" to="/"> <v-icon start icon="mdi-home-outline"/> Home</v-btn>
-      </v-col>
-      <v-divider vertical></v-divider>
 
       <v-col center align-self="center">
-        <v-img aspect-ratio="1" contain="true" max-height="100" :src="require('@/assets/logo-nobg.png')" class="ma-auto"></v-img>
+        <router-link to="/">
+          <v-img aspect-ratio="1" contain="true" max-height="100" src="@/assets/logo.png" :key="this.darkMode" class="ma-auto"></v-img>
+        </router-link>
       </v-col>
 
       <v-divider vertical></v-divider>
 
       <v-col center class="pa-4 ma-auto">
-      <v-btn   class="mx-5" to="/contact">Contact</v-btn>
+        <v-btn class="mx-5" to="/contact">Contact</v-btn>
       </v-col>
 
-  </v-row>
+      <v-divider vertical></v-divider>
+
+      <v-col center class="pa-4 ma-auto">
+        <v-btn size="x-large" icon="mdi-theme-light-dark" @click="toggleTheme">
+        </v-btn>
+      </v-col>
+    </v-row>
 
   </nav>
-  <router-view/>
+  <router-view />
+
 </template>
 
 <script>
+
 export default {
-  data() {
-    return {
-      btnHeight: null,
-    };
+  methods: {
+    toggleDarkMode: function () {
+      this.$vuetify.theme.light = !this.$vuetify.theme.light;
+      this.darkMode = !this.darkMode;
+    },
   },
-  mounted() {
-    this.$nextTick(() => {
-      const btnElement = this.$refs.myButton.$el;
-      this.btnWidth = btnElement.offsetWidth + 'px';
-    });
-  },
+  computed: {
+    switchLabel: function () {
+      return this.darkMode ? 'dark' : 'light';
+    },
+  }
+
 }
 </script>
 
@@ -45,15 +62,4 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-
-/* nav {
-}
-
-nav a {
-  font-weight: bold;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>
