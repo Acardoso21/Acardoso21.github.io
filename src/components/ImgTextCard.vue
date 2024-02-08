@@ -35,7 +35,7 @@ export default {
     titleprop: String,
     textprop: String,
     pathprop: String,
-    sizeprop: Number,
+    sizeprop: { type: Number, default: 1 },
     ratioprop: { type: String, default: "1" }
   },
 };
