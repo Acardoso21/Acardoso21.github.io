@@ -32,3 +32,18 @@ $(function(){
 $(function(){
   $("#footer-placeholder2").load("../FootBar.html");
 });
+
+// function toggleMode() {
+//   let element = document.body;
+//   element.classList.toggle("dark-mode");
+// }
+
+
+// const result = window.matchMedia('(prefers-color-scheme: dark)');
+// console.log(result.matches); // TRUE if user prefers dark mode
+
+
+// window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event) => {
+//   const theme = event.matches ? 'dark' : 'light';
+//   console.log(`change to ${theme} mode!`);
+// });
