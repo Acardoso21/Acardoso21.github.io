@@ -3,7 +3,6 @@ module.exports = defineConfig({
   publicPath: process.env.NODE_ENV === 'production'
     ? '/acardoso21.github.io/'
     : '/',
-    base
   transpileDependencies: true,
   pluginOptions: {
     vuetify: {
