@@ -19,7 +19,7 @@
           </v-col>
           <v-col class="" cols="12" sm="4" data-aos="slide-right" data-aos-duration="500">
             <v-sheet class="fill-height align-self-stretch">
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" :hasButton="false" />
+              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds"/>
             </v-sheet>
           </v-col>
         </v-row>
@@ -27,17 +27,17 @@
         <v-row class="px-8 ma-auto">
           <v-col cols="12" sm="4" data-aos="slide-right" data-aos-duration="500">
             <v-sheet>
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" />
+              <BasicCard titleprop="photo example card" backgroundSRC="../assets/ExampleIMG-3.png" />
             </v-sheet>
           </v-col>
           <v-col cols="12" sm="4" data-aos="slide-right" data-aos-duration="500">
             <v-sheet>
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" />
+              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds"/>
             </v-sheet>
           </v-col>
           <v-col cols="12" sm="4" data-aos="slide-right" data-aos-duration="500">
             <v-sheet>
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" />
+              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds"/>
             </v-sheet>
           </v-col>
         </v-row>
@@ -45,12 +45,12 @@
         <v-row class="px-8 ma-auto">
           <v-col cols="12" sm="4" data-aos="slide-right" data-aos-duration="500">
             <v-sheet>
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" />
+              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds"/>
             </v-sheet>
           </v-col>
           <v-col cols="12" sm="8" data-aos="slide-right" data-aos-duration="500">
             <v-sheet>
-              <BasicCard titleprop=Motivations subtitleprop="bab" textprop="ds" btntextprop="f" />
+              <BasicCard titleprop="photo example card" subtitleprop="hi" textprop="ds" backgroundSRC="@/assets/ExampleIMG-2.jpg" />
             </v-sheet>
           </v-col>
         </v-row>
