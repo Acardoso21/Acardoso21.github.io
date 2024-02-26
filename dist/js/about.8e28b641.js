@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunknewestsite"]=self["webpackChunknewestsite"]||[]).push([[443],{3769:function(n,e,t){t.r(e),t.d(e,{default:function(){return o}});var s=t(3396);const c={class:"contact"},r=(0,s._)("h1",null,"ADD YOUR CONTACT FORM/INFORMATION HERE",-1),u=[r];function a(n,e){return(0,s.wg)(),(0,s.iD)("div",c,u)}var i=t(89);const f={},l=(0,i.Z)(f,[["render",a]]);var o=l}}]);
-//# sourceMappingURL=about.8e28b641.js.map
